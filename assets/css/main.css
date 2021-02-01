@@ -29,6 +29,51 @@ img.rounded {
 	
   }
 
+/*My own code*/
+
+.Mycontainer  /*row*/
+{
+	
+	content: "";
+	display: table;
+	clear: both;
+
+	
+	 /*
+	 max-width: 1200px;
+	margin: auto;
+	background: #f2f2f2;
+	overflow: auto;
+	*/
+	
+}
+.Mygallery   /*colum*/
+{
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+	
+	/*
+	padding: 30px;
+	margin: 50px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 390px;
+	*/
+	
+}
+.Mygallery img 
+{
+	width: 100%;
+	height:auto;
+
+}
+.desc
+{
+	padding: 15px;
+	text-align: center;
+	color: ivory;
+}
 
 
 html, body, div, span, applet, object,
@@ -1509,6 +1554,7 @@ input, select, textarea {
 	.image {
 		display: inline-block;
 		border: 0;
+		
 	}
 
 		.image img {
@@ -1525,6 +1571,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
+			
 		}
 
 		.image.left {
@@ -2560,12 +2607,14 @@ input, select, textarea {
 						left: 0 !important;
 						width: 100% !important;
 						height: auto !important;
+						
 					}
 
 						.box.style1 .image img {
 							position: relative;
 							height: auto;
 							width: 100%;
+							
 						}
 
 					.box.style1 .inner {
@@ -2665,5 +2714,7 @@ input, select, textarea {
 			.poptrox-popup .closer {
 				opacity: 0.5;
 			}
+
+			
 
 	}
